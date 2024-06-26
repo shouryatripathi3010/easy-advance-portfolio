@@ -284,10 +284,7 @@ section {
   right: 20px;
 }
 
-.about-pic {
-  border-radius: 2rem;
-  left: 10px;
-}
+
 
 .arrow {
   position: absolute;
@@ -305,10 +302,6 @@ section {
   text-align: center;
 }
 
-.section-container {
-  gap: 4rem;
-  height: 80%;
-}
 
 .section__pic-container {
   height: 400px;

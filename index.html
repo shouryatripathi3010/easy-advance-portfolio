@@ -10,24 +10,32 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo"><span style="color: aqua;">*Shourya</span>  <span style="color: aqua;">Tripathi*</span> </div>
+      <div class="logo">Shourya Tripathi </div>
       <div>
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a class="button" data-text="Awesome" href="#about">
+            <span class="actual-text">&nbsp;about&nbsp;</span>
+            <span aria-hidden="true" class="hover-text">&nbsp;about&nbsp;</span>
+          </a></li>
+        <li><a class="button" data-text="Awesome" href="#experience">
+          <span class="actual-text">&nbsp;experience&nbsp;</span>
+          <span aria-hidden="true" class="hover-text">&nbsp;experience&nbsp;</span>
+        </a></li>
+      <li><a class="button" data-text="Awesome" href="#projects">
+        <span class="actual-text">&nbsp;projects&nbsp;</span>
+        <span aria-hidden="true" class="hover-text">&nbsp;Projects&nbsp;</span>
+      </a></li>
+    <li><a class="button" data-text="Awesome" href="#contact">
+      <span class="actual-text">&nbsp;contact&nbsp;</span>
+      <span aria-hidden="true" class="hover-text">&nbsp;contact&nbsp;</span>
+    </a></li>
         </ul>
       </div>
     </nav>
     <nav id="hamburger-nav">
       <div class="logo">Shourya Tripathi</div>
       <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+          
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
@@ -38,7 +46,7 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./My first design 1 (1).png">
+        <img src="./My first design 1 (1).png" class="img-1">
       </div>
       <div class="section__text">
         <p class="section__text__p1" style="color: black;">Hello, I'm</p>
@@ -49,9 +57,9 @@
             class="btn btn-color-2"><a href="./my-resume.pdf">
             Download CV
           </button></a>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          <button class="btn btn-color-1"><A href="#contact" onclick="toggleMenu()">
             Contact Info
-          </button>
+          </button></A>
         </div>
         <div id="socials-container">
           <img
@@ -308,13 +316,14 @@
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="#about">About</a></li>
+            <li><a href="#About">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
+    </div>
       <p>Copyright &#169; 2024 Shourya Tripathi. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
